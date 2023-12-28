@@ -110,7 +110,7 @@ def main():
     parser = ArgumentParser(description="Ovecell Data Pipeline")
     parser.add_argument("game_name", choices=['wwc', 'hb'], help="Game name ('wwc' or 'hb')")
     parser.add_argument("date", help="Date in format 'YYYY-MM-DD'")
-    parser.add_argument("csv_file_path", help="Path to the CSV file")
+    ##parser.add_argument("csv_file_path", help="Path to the CSV file")
 
     args = parser.parse_args()
 
