@@ -15,7 +15,7 @@ docker-compose up -d
 
 Running Data Pipeline
 
-docker-compose run app python main.py 
+docker-compose run app python main.py game_name
 
 docker-compose run app python src/main.py wwc  
 docker-compose run app python src/main.py hb
