@@ -5,9 +5,9 @@ services:
   database:
     image: postgres:latest
     environment:
-      POSTGRES_DB: ovecell_db
-      POSTGRES_USER: ovecell_user
-      POSTGRES_PASSWORD: ovecell_password
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
   app:
