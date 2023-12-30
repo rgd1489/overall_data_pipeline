@@ -15,7 +15,7 @@ docker-compose up -d
 
 Running Data Pipeline
 
-docker-compose run ovecell python main.py 
+docker-compose run app python main.py 
 
-docker-compose run ovecell python main.py wwc 2021-04-01 
-docker-compose run ovecell python main.py hb 2021-04-28
+docker-compose run app python src/main.py wwc  
+docker-compose run app python src/main.py hb
